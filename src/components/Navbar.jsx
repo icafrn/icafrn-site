@@ -9,16 +9,16 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <header>
-            <Link to={'/'} className="brand"> ICAF-RN </Link>
+            <Link to={'/icafrn-site'} className="brand"> ICAF-RN </Link>
             <ul className={menuOpen ? 'nav__navigation show' : 'nav__navigation'}>
                 <li>
-                    <NavLink to={'/site-icafrn'}>Início</NavLink>
+                    <NavLink to={'/icafrn-site'}>Início</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/site-icafrn/sobre-nos/'}>Sobre nós</NavLink>
+                    <NavLink to={'/icafrn-site/sobre-nos/'}>Sobre nós</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/site-icafrn/noticias/'}>Notícias</NavLink>
+                    <NavLink to={'/icafrn-site/noticias/'}>Notícias</NavLink>
                 </li>
             </ul>
             <div className="nav__right">
