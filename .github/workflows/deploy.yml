@@ -32,7 +32,9 @@ jobs:
       # Node.js install dependencies
       - name: Install dependencies
         run: npm install
-
+      
+      - name: Run build script
+        run: npm run build
       
       # Execute deploy script
       - name: Run deploy script
