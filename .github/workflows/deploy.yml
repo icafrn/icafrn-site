@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --global user.name "icafrn"
           git config --global user.email "meuicafrn@gmail.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/icafrn/seu-repositorio.git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/icafrn/icafrn-site.git
           
       # Node.js install dependencies
       - name: Install dependencies
