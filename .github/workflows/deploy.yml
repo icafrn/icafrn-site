@@ -15,7 +15,7 @@ jobs:
     steps:
       # Code checkout 
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       # Node.js config
       - name: Set up Node.js
@@ -38,5 +38,4 @@ jobs:
       
       # Execute deploy script
       - name: Run deploy script
-        run: |
-          npx gh-pages -d dist --repo https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/icafrn/icafrn-site.git
+        run: npm run deploy
