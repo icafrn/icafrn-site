@@ -1,0 +1,92 @@
+@import url(./fonts.css);
+
+:root {
+  --green-100: #6d9773;
+  --green-700: #0c3a2d;
+  --active-bg-color: #ffb902;
+  --white: #fff;
+  --black: #000;
+  --h1-font: 5rem;
+  --h2-font: 3.5rem;
+  --h3-font: 2rem;
+  --p-font: 16px;
+  --transition-normal: all 0.2 ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  width: 100%;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--green-700);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+}
+
+/* GENERAL */
+section {
+  padding: 70px 17% 60px;
+  height: 100vh;
+}
+
+/* HOME */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(./assets/background.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.hero__title {
+  font-size: var(--h1-font);
+  font-weight: bold;
+  color: var(--white);
+}
+
+.hero__paragraph {
+  font-size: 19px;
+  color: var(--white);
+  width: 50%;
+}
+
+@media screen and (max-width: 790px) {
+  .hero__title {
+    font-size: var(--h2-font);
+  }
+
+  .hero__paragraph {
+    font-size: var(--p-font);
+    width: 100%;
+  }
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+}
+
+.about__title {
+  font-size: var(--h3-font);
+}
+
+.about__paragraph {
+  text-align: justify;
+}
+

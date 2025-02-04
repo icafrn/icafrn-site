@@ -1,0 +1,17 @@
+Padding dos elementos: 
+
+element {
+    padding: 60px 17%
+}
+
+:root {
+  --green-100: #6d9773;
+  --green-700: #0c3a2d;
+  --active-bg-color: #ffb902;
+  --white: #fff;
+  --black: #000;
+  --h1-font: 5rem;
+  --h2-font: 3rem;
+  --p-font: 13px;
+  --transition-normal: all 0.2 ease;
+}
