@@ -79,7 +79,9 @@ section {
 
 /* ABOUT */
 .about {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about__title {
@@ -88,5 +90,15 @@ section {
 
 .about__paragraph {
   text-align: justify;
+  width: 80%;
+}
+
+.about__paragraph--center {
+  width: 60%;
+  text-align: center;
+}
+
+.about__paragraph--big-font {
+  font-size: 20px
 }
 
