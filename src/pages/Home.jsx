@@ -1,7 +1,11 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'
+
+import Card from '../components/Card';
+import { lastNewsData } from "../dummyData.js"
 
 const Home = () => {
+    const [lastNews, setLastNews] = useState(lastNewsData);
     return (
         <div>
             <section className='hero section--green'>
@@ -13,8 +17,13 @@ const Home = () => {
                     <Link to={'/sobre-nos/'} className='btn btn-success'>Conheça-nos</Link>
                 </div>
             </section>
-            <section>
-
+            <section className='section-last-news'>
+                <h1 className='section__title'>Últimas notícias</h1>
+                <div className='section-last-news__container'>
+                    {lastNews.map((lastNew) => (
+                        <Card key={lastNew.id} items={lastNew} />
+                    ))}
+                </div>
             </section>
         </div>
     )
