@@ -8,7 +8,7 @@ const Card = ({ items: { id, cover, title, time } }) => {
                     <img src={cover} alt="imagem" />
                 </div>
                 <div className="card-box__text">
-                    <h1 className="card-box-text__title">{title}</h1>
+                    <Link className="card-box-text__title" to={`/icafrn-site/noticias/${id}`}>{title}</Link>
                     <span className="card-box-text__time">{time}</span>
                 </div>
             </div>

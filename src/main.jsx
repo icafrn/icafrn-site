@@ -7,7 +7,7 @@ import App from './App.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import News from './pages/News.jsx'
-import NewDetail from './pages/NewDetail.jsx'
+import NewsDetail from './pages/NewsDetail.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/icafrn-site/noticias/:id",
-        element: <NewDetail />
+        element: <NewsDetail />
       }
     ],
   },
