@@ -4,13 +4,19 @@ const About = () => {
             <section className="about">
                 <h1 className="about__title">Sobre nós</h1>
                 <p className="about__paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor velit ut ex tristique ullamcorper. Aliquam erat volutpat. Sed sed diam sit amet est gravida iaculis. Maecenas ultrices nec felis eu finibus. Sed congue a velit nec consectetur. Morbi lobortis nibh eget risus placerat congue porttitor eget mi. Aliquam iaculis pharetra arcu eu tempus. Quisque vulputate est luctus eros sagittis, eget molestie turpis vehicula. In tempus massa eu urna ultricies condimentum. In ullamcorper neque ex, eu laoreet mi lobortis in. Maecenas tristique quam non lorem vehicula egestas.
+                    <b>O Instituto de Cooperação da Agricultura Familiar do Rio Grande do Norte</b> (ICAF-RN) nasceu com um propósito claro: fortalecer a agricultura familiar e promover o desenvolvimento sustentável no campo. Desde a nossa fundação, caminhamos lado a lado com agricultores, cooperativas e associações, impulsionando a produção agropecuaria e garantindo mais oportunidades para quem vive da terra.
                 </p>
                 <p className="about__paragraph">
-                    Etiam id ullamcorper turpis. Duis placerat quam nisi, quis pulvinar purus accumsan quis. Praesent non nibh at dolor egestas dictum. Etiam lectus dolor, elementum sed nisl eu, gravida luctus felis. Duis ante enim, varius vel mauris quis, gravida imperdiet lacus. Maecenas vel laoreet mi. Aenean dictum sapien odio, consectetur sollicitudin tellus elementum non. Aliquam sem lacus, faucibus eget viverra quis, dapibus ac lorem.
+                    Acreditamos que a agricultura familiar é a base da segurança alimentar e da economia local. Por isso, oferecemos suporte técnico, incentivamos práticas sustentáveis ​e facilitamos o acesso aos mercados para que os agricultores familiares possam crescer e prosperar.
                 </p>
                 <p className="about__paragraph">
-                    Donec pulvinar sapien et mi tempor interdum sed eget lacus. Vestibulum euismod maximus mauris ac malesuada. In consectetur metus tellus, ac molestie lacus porttitor in. Ut nibh nibh, egestas ac massa quis, ultricies commodo lacus. Duis convallis vestibulum nisl eget imperdiet. Duis vel pretium metus, in aliquet ante. Morbi scelerisque at eros eu consectetur. Nunc sed tempor dui. Nulla placerat laoreet felis eu ornare. Morbi dignissim sed enim quis pulvinar. Sed tristique non purus eget dignissim. Morbi aliquam leo a laoreet finibus.
+                    Nosso compromisso vai além do campo: promovemos formação, inclusão social e inovação, sempre respeitando a tradição e o conhecimento dos agricultores. Com parcerias estratégicas e projetos que geram impacto real, o ICAF-RN se tornou referência na transformação da vida de milhares de famílias no estado.
+                </p>
+                <p className="about__paragraph--center about__paragraph--big-font">
+                    <b>Seja parte dessa mudança!</b>
+                </p>
+                <p className="about__paragraph--center">
+                    Juntos, cultivamos um futuro mais justo, produtivo e sustentável para o Rio Grande do Norte
                 </p>
             </section>
         </div>

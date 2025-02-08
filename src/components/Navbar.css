@@ -13,10 +13,6 @@ header {
     justify-content: space-between;
 }
 
-.active {
-    background-color: var(--active-bg-color);
-}
-
 .brand {
     text-decoration: none;
     color: rgb(240, 245, 255);
@@ -48,10 +44,6 @@ header {
 
 .nav__navigation li a:hover {
     color: var(--active-bg-color);
-}
-
-.nav__navigation li a.active:hover {
-    color: var(--green-700);
 }
 
 .nav-right-icon {

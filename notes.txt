@@ -15,3 +15,8 @@ element {
   --p-font: 13px;
   --transition-normal: all 0.2 ease;
 }
+
+Home:
+  - Apresentação
+  - Notícias recentes
+  - Editais recentes
