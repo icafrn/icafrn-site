@@ -4,7 +4,12 @@ export const newsData = [
         title: "Novas Técnicas de Irrigação Aumentam Produção em 30%",
         cover: "/icafrn-site/news/image1.jpeg",
         time: "01/01/2025",
-        description: "Pesquisadores desenvolvem um novo sistema de irrigação que reduz o desperdício de água e melhora a absorção pelos solos agrícolas. Especialistas afirmam que a inovação pode revolucionar o setor, especialmente em regiões secas."
+        description: "Pesquisadores desenvolvem um novo sistema de irrigação que reduz o desperdício de água e melhora a absorção pelos solos agrícolas. Especialistas afirmam que a inovação pode revolucionar o setor, especialmente em regiões secas.",
+        paragraphs: [
+            'Nos últimos anos, a tecnologia dos drones tem desempenhado um papel crucial na modernização do agronegócio. Com sensores avançados e inteligência artificial, essas aeronaves não tripuladas estão proporcionando uma revolução na forma como os produtores monitoram e gerenciam suas lavouras.',
+            'Uma das principais vantagens dos drones é a capacidade de mapear grandes áreas com rapidez e precisão. Equipados com câmeras multiespectrais e sensores térmicos, eles capturam dados detalhados sobre o solo, a saúde das plantas e a presença de pragas ou doenças. Essas informações permitem que os agricultores tomem decisões mais assertivas, reduzindo desperdícios e maximizando a produtividade.',
+            'Além do monitoramento, os drones também são utilizados na aplicação de defensivos agrícolas de forma localizada. Ao invés de pulverizar indiscriminadamente, a tecnologia permite que os produtos sejam aplicados apenas onde há necessidade, minimizando impactos ambientais e otimizando custos operacionais.'
+        ]
     },
     {
         id: 2,
