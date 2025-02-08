@@ -72,11 +72,11 @@ header {
         right: 0;
         height: 90vh;
         padding: 8% 0;
-        background-color: var(--green-700);
+        background-color: var(--green-200);
     }
 
     .nav__navigation li a {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .nav__toggle {
