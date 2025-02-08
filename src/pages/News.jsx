@@ -1,13 +1,18 @@
+import { useState } from "react";
+import NewsCard from "../components/NewsCard";
+import { newsData } from "../newsData";
+
 const News = () => {
+    const [allNews, setAllNews] = useState(newsData);
     return (
-        <div>
-            <section>
-                <h1>Notícias</h1>
-            </section>
-        </div>
+        <section className="all-news">
+            {allNews.map((news) => (
+                <NewsCard key={news.id} items={news} />
+            ))}
+        </section>
     )
-}
+};
 
 
-export default News
+export default News;
 

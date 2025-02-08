@@ -22,17 +22,23 @@ const NewsDetail = () => {
 
 
     return (
-        <>  
+        <>
 
             {isLoading && (
                 <p>Carregando</p>
             )}
 
             {newsDataItem && (
-                <section className="news">
-                    <h1 className="news__title">{newsDataItem.title}</h1>
-                    <p className="news__time">Postado em: {newsDataItem.time}</p>
-                    <img className="news__img" src={newsDataItem.cover} alt={newsDataItem.title} />
+                <section>
+                    <div className="news">
+                        <span className="news__time">Postado em: {newsDataItem.time}</span>
+                        <h1 className="news__title">{newsDataItem.title}</h1>
+                        {newsDataItem.cover && (
+                            <div className="news__img">
+                                <img src={newsDataItem.cover} alt={newsDataItem.title} />
+                            </div>
+                        )}
+                    </div>
                 </section>
             )}
         </>

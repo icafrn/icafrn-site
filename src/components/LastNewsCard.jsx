@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 
-const Card = ({ items: { id, cover, title, time } }) => {
+const LastNewsCard = ({ items: { id, cover, title, time } }) => {
     return (
         <>
             <div className="card-box">
                 <div className="card-box__image">
-                    <img src={cover} alt="imagem" />
+                    <img src={cover} alt="imagem" className="overlay" />
+                    <div className="card-box-image__gradient"></div>
                 </div>
                 <div className="card-box__text">
                     <Link className="card-box-text__title" to={`/icafrn-site/noticias/${id}`}>{title}</Link>
@@ -16,4 +17,4 @@ const Card = ({ items: { id, cover, title, time } }) => {
     )
 };
 
-export default Card;
+export default LastNewsCard;

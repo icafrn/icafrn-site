@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import Card from '../components/Card';
+import LastNewsCard from '../components/LastNewsCard.jsx';
 import { lastNewsData } from "../dummyData.js"
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
                 <h1 className='section__title'>Últimas notícias</h1>
                 <div className='section-last-news__container'>
                     {lastNews.map((lastNew) => (
-                        <Card key={lastNew.id} items={lastNew} />
+                        <LastNewsCard key={lastNew.id} items={lastNew} />
                     ))}
                 </div>
             </section>
